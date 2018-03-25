@@ -66,10 +66,10 @@ The following source and destination points are chosen:
 
 | Source        | Destination   | 
 |:-------------:|:-------------:| 
-| 780, 480      | 1280, 0        | 
-| 1250, 670      | 1280, 720   |
-| 110, 670     | 0, 720      |
-| 510, 480      | 0,  0        |
+| 740, 460      | 1280, 0        | 
+| 1230, 670      | 1280, 720   |
+| 70, 670     | 0, 720      |
+| 545, 460      | 0,  0        |
 
 The undistort image and the transformed image are following:
 
@@ -98,7 +98,7 @@ Finally, I performed an inverse perspective transformation and conbined the proc
 
 ### Pipeline (video)
 
-Here's a [link to my video result](https://youtu.be/99i7jlgrorc)
+Here's a [link to my video result](https://youtu.be/gc-QphMgn78)
 
 ---
 
@@ -106,4 +106,4 @@ Here's a [link to my video result](https://youtu.be/99i7jlgrorc)
 
 #### 1. Further improvement
 
-The one thing that we might need to consider is the gradient & Color threshold. In my video, during the car driving in the shadow area, the lane detection is not so acculate. Therefore, it might be better to consider other detection method or conbine them to detect line acculately under all situation.  
+Further improvement woudl be to fit this lane finding algorithm for the other driving conditions like driving on steep hills, in heavy traffic, rain, snow etc. 
