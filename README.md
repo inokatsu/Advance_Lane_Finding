@@ -1,7 +1,7 @@
 
 
 # Advanced Lane Finding Project
-
+![alt text][image0]
 #### The goals / steps of this project are the following:
 
 * Compute the camera calibration matrix and distortion coefficients given a set of chessboard images.
@@ -15,6 +15,7 @@
 
 [//]: # (Image References)
 
+[image0]: ./output_images/P4_result_video.gif "result_gif"
 [image1]: ./output_images/undisorted_chessboard_images/undistorted_chess_board.jpg "Undistorted"
 [image7]: ./output_images/undisorted_chessboard_images/calibration2_out.jpg "chess board"
 [image2]: ./output_images/undisorted_road_images/test6_out.jpg "Road Transformed"
