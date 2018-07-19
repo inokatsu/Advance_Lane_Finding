@@ -60,7 +60,7 @@ I used sobel operator x direction and S channel of HSL to generate a binary imag
 
 ### 3. Prospective transform
 
-The code for my perspective transform includes a function called `perspetive_transform()`, in the 8rd code cell of the Jupyter notebook.  The function takes as inputs an image (`img`) and return warped image(bird eye view image):
+The code for my perspective transform includes a function called `perspetive_transform()`, in the 8th code cell of the Jupyter notebook.  The function takes as inputs an image (`img`) and return warped image(bird eye view image):
 
 
 The following source and destination points are chosen:
